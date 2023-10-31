@@ -22,9 +22,9 @@ An object detection project that utilizes a FLIR Lepton 3.5 thermal sensor that 
 ##### Steps:
 
 1. AWS Iot Core
-  * Create an AWS Iot Thing
-  * Create and attach an AWS IoT Policy to the Thing
-  * An S3 bucket with a rule that dumps the data published from Thing via MQTT
+    * Create an AWS Iot Thing
+    * Create and attach an AWS IoT Policy to the Thing
+    * An S3 bucket with a rule that dumps the data published from Thing via MQTT
     
 2. Load AWS certificates and keys to the OpenMV board
 3. Load the custom TensorFlow lite model to the OpenMV board
